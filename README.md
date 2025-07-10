@@ -5,9 +5,7 @@ This project showcases my skills, projects, and experiences in a clean, responsi
 
 ##  Live Preview
 
-🔗 [View Portfolio on GitHub Pages](https://your-username.github.io/your-repo-name)
-
-*(Replace the above link with your actual GitHub Pages URL)*
+🔗 [View Portfolio on GitHub Pages](https://04yashgautam.github.io/Portfolio)
 
 ##  Features
 
