@@ -1,11 +1,11 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+import project1 from "../assets/projects/project-1.png";
+import project2 from "../assets/projects/project-2.png";
+import project3 from "../assets/projects/project-3.png";
+import project4 from "../assets/projects/project-4.png";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `My interests lie at the intersection of technology, creativity, and problem-solving. In addition to front-end development, I actively explore machine learning and data-driven technologies to create intelligent systems that solve real-world problems. Whether it’s designing a clean user interface, integrating a robust backend, or training models for insightful predictions, I enjoy every step of the development journey.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = ` A code crafter, problem solver, and digital explorer. I love bringing ideas to life through clean design, smart code, and a touch of creative flair. I enjoy turning complex problems into simple, efficient solutions. From front-end development using React to back-end integration and data-driven ML models, I strive to create impactful projects that not only function well but also look great. I'm always eager to learn new technologies and take on challenging tasks that push my skills further.`;
 
 export const EDUCATION = [
 
@@ -30,37 +30,41 @@ export const EDUCATION = [
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Epileptic-Seizure-Recognition-using-Entropy",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "A project focused on recognizing epileptic seizures using entropy-based methods.",
+    technologies: ["Python", "TensorFlow", "Keras"],
+    link: "https://github.com/04yashgautam/Epileptic-Seizure-Recognition-using-Entropy"
   },
   {
-    title: "Task Management App",
+    title: "Flood-Prediction-using-Deep-Learning",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "A project aimed at predicting flood events using deep learning techniques.",
+    technologies: ["Python", "Keras"],
+    link: "https://github.com/04yashgautam/Flood-Prediction-using-Deep-Learning"
   },
   {
+    title: "Flood-Prediction-with-User-Inputs",
+    image: project4,
+    description:
+      "A project that allows users to input data for flood prediction using machine learning.",
+    technologies: ["Python", "Keras" , "Flask"],
+    link: "https://github.com/04yashgautam/Flood-Prediction-with-User-Inputs"
+  },
+    {
     title: "Portfolio Website",
     image: project3,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
-  },
-  {
-    title: "Blogging Platform",
-    image: project4,
-    description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
-  },
+    technologies: ["HTML", "React", "Tailwind CSS", "Framer Motion", "Git"],
+    link: "https://github.com/04yashgautam/Portfolio"
+  }
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  address: "Uttar Pradesh, India",
+  phoneNo: "+91 9958923570 ",
+  email: "04yashgautam@gmail.com",
 };

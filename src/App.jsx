@@ -4,8 +4,7 @@ import Hero from "./components/Hero";
 import Languages from "./components/Languages";
 import NavBar from "./components/NavBar";
 import Frameworks from "./components/Frameworks";
-
-
+import Projects from "./components/Projects";
 
 const App = () => {
   return (
@@ -21,6 +20,7 @@ const App = () => {
         <Languages/>
         <Frameworks/>
         <Education/>
+        <Projects/>
       </div>
     </div>
   );
