@@ -1,5 +1,5 @@
 import About from "./components/About";
-import Experience from "./components/Experience";
+import Education from "./components/Education";
 import Hero from "./components/Hero";
 import Languages from "./components/Languages";
 import NavBar from "./components/NavBar";
@@ -20,7 +20,7 @@ const App = () => {
         <About/>
         <Languages/>
         <Frameworks/>
-        <Experience/>
+        <Education/>
       </div>
     </div>
   );
